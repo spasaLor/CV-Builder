@@ -1,0 +1,14 @@
+body{
+  margin:0;
+  font-family: 'Roboto';
+  font-size: 18px;
+  height: 100%;
+}
+h1,h2,p{
+  margin:0;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1.75fr;
+  height: 100vh;
+}

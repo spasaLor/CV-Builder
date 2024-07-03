@@ -1,0 +1,84 @@
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    background-color: blanchedalmond;
+    height: 100%;
+}
+
+.right .cv{
+    width:80%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    box-shadow: rgba(0, 0, 0, 0.3) -4px 9px 25px -6px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.cv .header, .right-educational, .right-experience{
+    background-color: #7c4428;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding:20px 0px;
+    gap:20px;
+    color:white
+}
+
+.other-info{
+    display: flex;
+    gap:30px;
+}
+
+.mail,.phone,.location{
+    display: flex;
+    align-items: flex-start;
+}
+
+.other-info span{
+    margin-right: 5px;
+}
+
+.right-educational, .right-experience{
+    background-color: white;
+    color:black;
+    padding: 0px 40px;
+    font-weight: 500;
+}
+
+.right-educational h2, .right-experience h2{
+    text-align: center;
+    background-color: #ffe8cf;
+    color:#985732;
+    width: 100%;
+}
+
+.edu-list{
+    width: 100%;
+}
+
+.edu-list .list-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.list-item p:nth-child(2){
+    font-style: italic;
+}
+
+.practical-list .list-item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:5px;
+    margin-bottom: 10px;
+}
